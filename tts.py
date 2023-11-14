@@ -3,11 +3,11 @@ from openai import OpenAI
 
 client = OpenAI()
 
-speech_file_path = Path(__file__).parent / "speech-step-6-esp.mp3"
+speech_file_path = Path(__file__).parent / "speech-intro-tar.mp3"
 response = client.audio.speech.create(
   model="tts-1-hd",
   voice="echo",
-  input="Paso Seis: Configuración Completa, ¡y felicidades! Tu Gateway de Phonoscope Fiber ya está todo configurado y listo para usar. Si alguna vez necesitas asistencia o tienes alguna pregunta, nuestro equipo de soporte está a solo una llamada o un clic de distancia. No olvides revisar nuestros 'Consejos y Trucos' para aprovechar al máximo tu nueva conexión."
+  input="እዚ ናብ ፎኖስከይፕ ፊብር ዕርፊት፣ እንታይ ንእምነት። እኛ እዚ ናብዚ እናደርግዎ ክንመርሕዎ በእተነፃፃፈ ናይ ዝኸበር ፎኖስከይፕ ፊብር ጌትዌይ ኣለና። ክንጠልኦምና ተዘጋጁ፣ ብብልቦክሲ ዝበሉ ዕቃታት፦ ጌትዌይ (ሞዴም)፣ ብሓይቲ ዝተገጠሙ ናይ ግንባታ ሞጣቢ ከምኡ'ውን ስክራውስ እና 2 ኣንኮራ (ኦፕሽናል)፣ ናይ መንግስቲ ሰማይ፣ ኤትሬንካብል፣ እና ኮኣክሽያል ካብል። ተንቀጥቅጦ፦ መጀመርያ ናይ ኦትሌት ምርመራ"
 )
 
 response.stream_to_file(speech_file_path)
