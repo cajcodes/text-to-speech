@@ -55,8 +55,13 @@ Webflow.push(function() {
 
   // Mapping slide IDs to audio file URLs
   var audioFiles = {
-    'intro': 'path/to/intro.mp3',
-    'step-1': 'path/to/step-1.mp3',
+    'intro': 'https://www.dropbox.com/scl/fi/l0nj1nfwhcbeikbg632jz/speech-intro-esp.mp3?rlkey=47mpajsisce1t3k2073fxt6k4&dl=1',
+    'step-1': 'https://www.dropbox.com/scl/fi/o4f4ae84s0quwpty1n9og/speech-step-1-esp.mp3?rlkey=49kbodpu09x4beo1dhmekfhrq&dl=1',
+    'step-2': 'https://www.dropbox.com/scl/fi/nnqo6etdulce9jo8ecorr/speech-step-2-esp.mp3?rlkey=a8ipzdr154em8r2rcn3o03ygh&dl=1',
+    'step-3': 'https://www.dropbox.com/scl/fi/729gpqvhhvibn91zaom6u/speech-step-3-esp.mp3?rlkey=dyif3634alk7kv7pl96w2lq5i&dl=1',
+    'step-4': 'https://www.dropbox.com/scl/fi/jued25duw4sul09krb1q4/speech-step-4-esp.mp3?rlkey=zz2kkywndyzdme4e1x0l93pdp&dl=1',
+    'step-5': 'https://www.dropbox.com/scl/fi/rczjm66njjpxew2m212mu/speech-step-5-esp.mp3?rlkey=s5px2tujvtzpm44zbj0c0s6b1&dl=1',
+    'step-6': 'https://www.dropbox.com/scl/fi/tuz45vdd8i5wngvw6vl34/speech-step-6-esp.mp3?rlkey=8ktvrd57kspht5qu0452v99mg&dl=1',
     // ... and so on for each step ...
   };
 
