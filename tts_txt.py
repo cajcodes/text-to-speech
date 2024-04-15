@@ -5,7 +5,7 @@ client = OpenAI()
 
 # Path to the text file and the output speech file
 text_file_path = Path(__file__).parent / "input-text.txt"
-speech_file_path = Path(__file__).parent / "speech-blog-mosaic-hindi2.mp3"
+speech_file_path = Path(__file__).parent / "output-speech.mp3"
 
 # Read the content of the text file
 with open(text_file_path, 'r', encoding='utf-8') as file:
