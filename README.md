@@ -27,5 +27,5 @@ The generated speech audio will be saved as output-speech.mp3 in the same direct
 ### Customization
 
 #### You can customize the scripts to suit your needs:
-**Voice Selection:** Both scripts allow you to choose from various voices provided by OpenAI. Simply change the voice parameter in the client.audio.speech.create() function to one of the available options: alloy, echo, fable, onyx, nova, or shimmer.
-**Input Text:** For tts_txt.py, you can edit the input-text.txt file to provide the text input for conversion.
+* **Voice Selection:** Both scripts allow you to choose from various voices provided by OpenAI. Simply change the voice parameter in the client.audio.speech.create() function to one of the available options: alloy, echo, fable, onyx, nova, or shimmer.
+* **Input Text:** For tts_txt.py, you can edit the input-text.txt file to provide the text input for conversion.
